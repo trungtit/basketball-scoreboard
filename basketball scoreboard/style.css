@@ -1,0 +1,72 @@
+@font-face {
+  font-family: "cursed_timer_ulilregular";
+  src: url("cursedtimerulil-aznm-webfont.woff2") format("woff2"),
+    url("cursedtimerulil-aznm-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "premier_2019regular";
+  src: url("premier2019-rpv9-webfont.woff2") format("woff2"),
+    url("premier2019-rpv9-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+.board-bgr {
+  width: 575px;
+  height: 385px;
+  display: flex;
+  flex-direction: row;
+  background: #1b244a;
+  justify-content: space-around;
+  margin: 100px auto 0 auto;
+  border: 1px solid black;
+  font-weight: bold;
+  text-align: center;
+}
+.team-name {
+  color: white;
+  font-family: "premier_2019regular";
+  font-size: 50px;
+  text-shadow: 0 0 5px #9aabd8;
+}
+.home-area {
+  margin: auto 0 auto 0;
+}
+.guest-area {
+  margin: auto 0 auto 0;
+}
+.number {
+  position: relative;
+  width: 155px;
+  height: 120px;
+  background: black;
+  color: #f94f6d;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+.number h1 {
+  position: absolute;
+  width: 117px;
+  height: 120px;
+  top: 20px;
+  right:auto;
+  left: auto;
+  text-align: center;
+  font-size: 90px;
+  font-weight: 400;
+  font-family: cursed_timer_ulilregular;
+  margin: auto 20px auto;
+}
+button {
+  width: 45px;
+  height: 45px;
+  background: #1b244a;
+  font-family: cursed_timer_ulilregular;
+  font-size: 20px;
+  border: 1px solid #9aabd8;
+  color: #9aabd8;
+  border-radius: 5px;
+  margin: 2px;
+  cursor: pointer;
+}
